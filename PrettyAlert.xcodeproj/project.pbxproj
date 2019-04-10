@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F072F3C4225C91C700DD7867 /* Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072F3C3225C91C700DD7867 /* Nib.swift */; };
 		F0873E9A225B43FA00089882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0873E99225B43FA00089882 /* AppDelegate.swift */; };
 		F0873E9C225B43FA00089882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0873E9B225B43FA00089882 /* ViewController.swift */; };
 		F0873E9F225B43FA00089882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0873E9D225B43FA00089882 /* Main.storyboard */; };
 		F0873EA1225B43FB00089882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0873EA0225B43FB00089882 /* Assets.xcassets */; };
 		F0873EA4225B43FB00089882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0873EA2225B43FB00089882 /* LaunchScreen.storyboard */; };
 		F0873EAC225B55B900089882 /* AlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0873EAB225B55B900089882 /* AlertButton.swift */; };
+		F0873EB2225B6BCF00089882 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0873EB1225B6BCF00089882 /* AlertView.xib */; };
+		F0873EB4225BAD2B00089882 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0873EB3225BAD2B00089882 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F072F3C3225C91C700DD7867 /* Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nib.swift; sourceTree = "<group>"; };
 		F0873E96225B43FA00089882 /* PrettyAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrettyAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0873E99225B43FA00089882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0873E9B225B43FA00089882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		F0873EA3225B43FB00089882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0873EA5225B43FB00089882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0873EAB225B55B900089882 /* AlertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButton.swift; sourceTree = "<group>"; };
+		F0873EB1225B6BCF00089882 /* AlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		F0873EB3225BAD2B00089882 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				F0873E99225B43FA00089882 /* AppDelegate.swift */,
 				F0873E9B225B43FA00089882 /* ViewController.swift */,
-				F0873EAB225B55B900089882 /* AlertButton.swift */,
 				F0873E9D225B43FA00089882 /* Main.storyboard */,
+				F0873EB1225B6BCF00089882 /* AlertView.xib */,
+				F0873EB3225BAD2B00089882 /* AlertView.swift */,
+				F0873EAB225B55B900089882 /* AlertButton.swift */,
+				F072F3C3225C91C700DD7867 /* Nib.swift */,
 				F0873EA0225B43FB00089882 /* Assets.xcassets */,
 				F0873EA2225B43FB00089882 /* LaunchScreen.storyboard */,
 				F0873EA5225B43FB00089882 /* Info.plist */,
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0873EA4225B43FB00089882 /* LaunchScreen.storyboard in Resources */,
+				F0873EB2225B6BCF00089882 /* AlertView.xib in Resources */,
 				F0873EA1225B43FB00089882 /* Assets.xcassets in Resources */,
 				F0873E9F225B43FA00089882 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0873E9C225B43FA00089882 /* ViewController.swift in Sources */,
+				F072F3C4225C91C700DD7867 /* Nib.swift in Sources */,
+				F0873EB4225BAD2B00089882 /* AlertView.swift in Sources */,
 				F0873E9A225B43FA00089882 /* AppDelegate.swift in Sources */,
 				F0873EAC225B55B900089882 /* AlertButton.swift in Sources */,
 			);
